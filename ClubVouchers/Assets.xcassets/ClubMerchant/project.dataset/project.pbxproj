@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817556611BC296CC0032F00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556601BC296CC0032F00D /* main.m */; };
+		817556641BC296CC0032F00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556631BC296CC0032F00D /* AppDelegate.m */; };
+		8175566C1BC296CC0032F00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8175566B1BC296CC0032F00D /* Assets.xcassets */; };
+		8175567A1BC296CC0032F00D /* ClubVouchersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556791BC296CC0032F00D /* ClubVouchersTests.m */; };
+		817556851BC296CC0032F00D /* ClubVouchersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556841BC296CC0032F00D /* ClubVouchersUITests.m */; };
+		817556961BC2989A0032F00D /* dashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556931BC2989A0032F00D /* dashboard.m */; settings = {ASSET_TAGS = (); }; };
+		817556971BC2989A0032F00D /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556951BC2989A0032F00D /* login.m */; settings = {ASSET_TAGS = (); }; };
+		817556A51BC298AD0032F00D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556981BC298AD0032F00D /* SBJsonWriter.m */; settings = {ASSET_TAGS = (); }; };
+		817556A61BC298AD0032F00D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175569B1BC298AD0032F00D /* NSObject+SBJSON.m */; settings = {ASSET_TAGS = (); }; };
+		817556A71BC298AD0032F00D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175569D1BC298AD0032F00D /* NSString+SBJSON.m */; settings = {ASSET_TAGS = (); }; };
+		817556A81BC298AD0032F00D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8175569F1BC298AD0032F00D /* SBJSON.m */; settings = {ASSET_TAGS = (); }; };
+		817556A91BC298AD0032F00D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556A11BC298AD0032F00D /* SBJsonBase.m */; settings = {ASSET_TAGS = (); }; };
+		817556AA1BC298AD0032F00D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556A31BC298AD0032F00D /* SBJsonParser.m */; settings = {ASSET_TAGS = (); }; };
+		817556AC1BC298B70032F00D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 817556AB1BC298B70032F00D /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		817556AF1BC298BE0032F00D /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556AD1BC298BE0032F00D /* MTBBarcodeScanner.m */; settings = {ASSET_TAGS = (); }; };
+		817556B51BC2B2E70032F00D /* Success_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817556B41BC2B2E70032F00D /* Success_ViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817556761BC296CC0032F00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817556541BC296CC0032F00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8175565B1BC296CC0032F00D;
+			remoteInfo = ClubVouchers;
+		};
+		817556811BC296CC0032F00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817556541BC296CC0032F00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8175565B1BC296CC0032F00D;
+			remoteInfo = ClubVouchers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8175565C1BC296CC0032F00D /* ClubMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817556601BC296CC0032F00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		817556621BC296CC0032F00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		817556631BC296CC0032F00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8175566B1BC296CC0032F00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		817556701BC296CC0032F00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817556751BC296CC0032F00D /* ClubMerchant.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubMerchant.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		817556791BC296CC0032F00D /* ClubVouchersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClubVouchersTests.m; sourceTree = "<group>"; };
+		8175567B1BC296CC0032F00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817556801BC296CC0032F00D /* ClubMerchant.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubMerchant.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		817556841BC296CC0032F00D /* ClubVouchersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClubVouchersUITests.m; sourceTree = "<group>"; };
+		817556861BC296CC0032F00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817556921BC2989A0032F00D /* dashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dashboard.h; sourceTree = "<group>"; };
+		817556931BC2989A0032F00D /* dashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dashboard.m; sourceTree = "<group>"; };
+		817556941BC2989A0032F00D /* login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
+		817556951BC2989A0032F00D /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login.m; sourceTree = "<group>"; };
+		817556981BC298AD0032F00D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		817556991BC298AD0032F00D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		8175569A1BC298AD0032F00D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		8175569B1BC298AD0032F00D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		8175569C1BC298AD0032F00D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		8175569D1BC298AD0032F00D /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		8175569E1BC298AD0032F00D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		8175569F1BC298AD0032F00D /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		817556A01BC298AD0032F00D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		817556A11BC298AD0032F00D /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		817556A21BC298AD0032F00D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		817556A31BC298AD0032F00D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		817556A41BC298AD0032F00D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		817556AB1BC298B70032F00D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		817556AD1BC298BE0032F00D /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
+		817556AE1BC298BE0032F00D /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBBarcodeScanner.h; sourceTree = "<group>"; };
+		817556B31BC2B2E70032F00D /* Success_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Success_ViewController.h; sourceTree = "<group>"; };
+		817556B41BC2B2E70032F00D /* Success_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Success_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817556591BC296CC0032F00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817556721BC296CC0032F00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175567D1BC296CC0032F00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817556531BC296CC0032F00D = {
+			isa = PBXGroup;
+			children = (
+				817556B31BC2B2E70032F00D /* Success_ViewController.h */,
+				817556B41BC2B2E70032F00D /* Success_ViewController.m */,
+				8175565E1BC296CC0032F00D /* ClubVouchers */,
+				817556781BC296CC0032F00D /* ClubVouchersTests */,
+				817556831BC296CC0032F00D /* ClubVouchersUITests */,
+				8175565D1BC296CC0032F00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8175565D1BC296CC0032F00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8175565C1BC296CC0032F00D /* ClubMerchant.app */,
+				817556751BC296CC0032F00D /* ClubMerchant.xctest */,
+				817556801BC296CC0032F00D /* ClubMerchant.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8175565E1BC296CC0032F00D /* ClubVouchers */ = {
+			isa = PBXGroup;
+			children = (
+				817556621BC296CC0032F00D /* AppDelegate.h */,
+				817556631BC296CC0032F00D /* AppDelegate.m */,
+				817556921BC2989A0032F00D /* dashboard.h */,
+				817556931BC2989A0032F00D /* dashboard.m */,
+				817556941BC2989A0032F00D /* login.h */,
+				817556951BC2989A0032F00D /* login.m */,
+				817556981BC298AD0032F00D /* SBJsonWriter.m */,
+				817556991BC298AD0032F00D /* JSON.h */,
+				8175569A1BC298AD0032F00D /* NSObject+SBJSON.h */,
+				8175569B1BC298AD0032F00D /* NSObject+SBJSON.m */,
+				8175569C1BC298AD0032F00D /* NSString+SBJSON.h */,
+				8175569D1BC298AD0032F00D /* NSString+SBJSON.m */,
+				8175569E1BC298AD0032F00D /* SBJSON.h */,
+				8175569F1BC298AD0032F00D /* SBJSON.m */,
+				817556A01BC298AD0032F00D /* SBJsonBase.h */,
+				817556A11BC298AD0032F00D /* SBJsonBase.m */,
+				817556A21BC298AD0032F00D /* SBJsonParser.h */,
+				817556A31BC298AD0032F00D /* SBJsonParser.m */,
+				817556A41BC298AD0032F00D /* SBJsonWriter.h */,
+				817556AB1BC298B70032F00D /* logo.png */,
+				817556AD1BC298BE0032F00D /* MTBBarcodeScanner.m */,
+				817556AE1BC298BE0032F00D /* MTBBarcodeScanner.h */,
+				8175566B1BC296CC0032F00D /* Assets.xcassets */,
+				817556701BC296CC0032F00D /* Info.plist */,
+				8175565F1BC296CC0032F00D /* Supporting Files */,
+			);
+			path = ClubVouchers;
+			sourceTree = "<group>";
+		};
+		8175565F1BC296CC0032F00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817556601BC296CC0032F00D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817556781BC296CC0032F00D /* ClubVouchersTests */ = {
+			isa = PBXGroup;
+			children = (
+				817556791BC296CC0032F00D /* ClubVouchersTests.m */,
+				8175567B1BC296CC0032F00D /* Info.plist */,
+			);
+			path = ClubVouchersTests;
+			sourceTree = "<group>";
+		};
+		817556831BC296CC0032F00D /* ClubVouchersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				817556841BC296CC0032F00D /* ClubVouchersUITests.m */,
+				817556861BC296CC0032F00D /* Info.plist */,
+			);
+			path = ClubVouchersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8175565B1BC296CC0032F00D /* ClubMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817556891BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchant" */;
+			buildPhases = (
+				817556581BC296CC0032F00D /* Sources */,
+				817556591BC296CC0032F00D /* Frameworks */,
+				8175565A1BC296CC0032F00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClubMerchant;
+			productName = ClubVouchers;
+			productReference = 8175565C1BC296CC0032F00D /* ClubMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		817556741BC296CC0032F00D /* ClubMerchantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175568C1BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchantTests" */;
+			buildPhases = (
+				817556711BC296CC0032F00D /* Sources */,
+				817556721BC296CC0032F00D /* Frameworks */,
+				817556731BC296CC0032F00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817556771BC296CC0032F00D /* PBXTargetDependency */,
+			);
+			name = ClubMerchantTests;
+			productName = ClubVouchersTests;
+			productReference = 817556751BC296CC0032F00D /* ClubMerchant.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8175567F1BC296CC0032F00D /* ClubMerchantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175568F1BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchantUITests" */;
+			buildPhases = (
+				8175567C1BC296CC0032F00D /* Sources */,
+				8175567D1BC296CC0032F00D /* Frameworks */,
+				8175567E1BC296CC0032F00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817556821BC296CC0032F00D /* PBXTargetDependency */,
+			);
+			name = ClubMerchantUITests;
+			productName = ClubVouchersUITests;
+			productReference = 817556801BC296CC0032F00D /* ClubMerchant.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817556541BC296CC0032F00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "PICNFRAMES TECHNOLOGIES";
+				TargetAttributes = {
+					8175565B1BC296CC0032F00D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B6568WA874;
+					};
+					817556741BC296CC0032F00D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8175565B1BC296CC0032F00D;
+					};
+					8175567F1BC296CC0032F00D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8175565B1BC296CC0032F00D;
+					};
+				};
+			};
+			buildConfigurationList = 817556571BC296CC0032F00D /* Build configuration list for PBXProject "ClubMerchant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817556531BC296CC0032F00D;
+			productRefGroup = 8175565D1BC296CC0032F00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8175565B1BC296CC0032F00D /* ClubMerchant */,
+				817556741BC296CC0032F00D /* ClubMerchantTests */,
+				8175567F1BC296CC0032F00D /* ClubMerchantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8175565A1BC296CC0032F00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817556AC1BC298B70032F00D /* logo.png in Resources */,
+				8175566C1BC296CC0032F00D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817556731BC296CC0032F00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175567E1BC296CC0032F00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817556581BC296CC0032F00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817556A81BC298AD0032F00D /* SBJSON.m in Sources */,
+				817556A51BC298AD0032F00D /* SBJsonWriter.m in Sources */,
+				817556641BC296CC0032F00D /* AppDelegate.m in Sources */,
+				817556AA1BC298AD0032F00D /* SBJsonParser.m in Sources */,
+				817556971BC2989A0032F00D /* login.m in Sources */,
+				817556A61BC298AD0032F00D /* NSObject+SBJSON.m in Sources */,
+				817556AF1BC298BE0032F00D /* MTBBarcodeScanner.m in Sources */,
+				817556961BC2989A0032F00D /* dashboard.m in Sources */,
+				817556A91BC298AD0032F00D /* SBJsonBase.m in Sources */,
+				817556A71BC298AD0032F00D /* NSString+SBJSON.m in Sources */,
+				817556611BC296CC0032F00D /* main.m in Sources */,
+				817556B51BC2B2E70032F00D /* Success_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817556711BC296CC0032F00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175567A1BC296CC0032F00D /* ClubVouchersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175567C1BC296CC0032F00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817556851BC296CC0032F00D /* ClubVouchersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817556771BC296CC0032F00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8175565B1BC296CC0032F00D /* ClubMerchant */;
+			targetProxy = 817556761BC296CC0032F00D /* PBXContainerItemProxy */;
+		};
+		817556821BC296CC0032F00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8175565B1BC296CC0032F00D /* ClubMerchant */;
+			targetProxy = 817556811BC296CC0032F00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		817556871BC296CC0032F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1b846708-240b-49b3-b0a3-37aba4323dfa";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		817556881BC296CC0032F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1b846708-240b-49b3-b0a3-37aba4323dfa";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8175568A1BC296CC0032F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				INFOPLIST_FILE = ClubVouchers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnf.test;
+				PRODUCT_NAME = ClubMerchant;
+				PROVISIONING_PROFILE = "1b846708-240b-49b3-b0a3-37aba4323dfa";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8175568B1BC296CC0032F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virender Sharma (84444VFJ9V)";
+				INFOPLIST_FILE = ClubVouchers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnf.test;
+				PRODUCT_NAME = ClubMerchant;
+				PROVISIONING_PROFILE = "1b846708-240b-49b3-b0a3-37aba4323dfa";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8175568D1BC296CC0032F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClubVouchersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PicnFrames.ClubVouchersTests;
+				PRODUCT_NAME = ClubMerchant;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubMerchant.app/ClubMerchant";
+			};
+			name = Debug;
+		};
+		8175568E1BC296CC0032F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClubVouchersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PicnFrames.ClubVouchersTests;
+				PRODUCT_NAME = ClubMerchant;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubMerchant.app/ClubMerchant";
+			};
+			name = Release;
+		};
+		817556901BC296CC0032F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClubVouchersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PicnFrames.ClubVouchersUITests;
+				PRODUCT_NAME = ClubMerchant;
+				TEST_TARGET_NAME = ClubVouchers;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		817556911BC296CC0032F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClubVouchersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PicnFrames.ClubVouchersUITests;
+				PRODUCT_NAME = ClubMerchant;
+				TEST_TARGET_NAME = ClubVouchers;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817556571BC296CC0032F00D /* Build configuration list for PBXProject "ClubMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817556871BC296CC0032F00D /* Debug */,
+				817556881BC296CC0032F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817556891BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175568A1BC296CC0032F00D /* Debug */,
+				8175568B1BC296CC0032F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175568C1BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175568D1BC296CC0032F00D /* Debug */,
+				8175568E1BC296CC0032F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175568F1BC296CC0032F00D /* Build configuration list for PBXNativeTarget "ClubMerchantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817556901BC296CC0032F00D /* Debug */,
+				817556911BC296CC0032F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817556541BC296CC0032F00D /* Project object */;
+}
